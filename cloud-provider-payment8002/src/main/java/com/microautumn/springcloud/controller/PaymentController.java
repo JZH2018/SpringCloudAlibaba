@@ -38,7 +38,7 @@ public class PaymentController {
         log.info("*********查询结果" + payment);
 
         if (payment != null) {
-            return new CommonResult(200, "查询成功serverPort:"+serverPort, payment);
+            return new CommonResult(200, "查询成功serverPort:"+serverPort ,payment);
         } else {
             return new CommonResult(444, "未查寻到记录", null);
         }
