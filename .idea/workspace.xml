@@ -22,38 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b302aeff-f998-4e82-a776-3e1cd411f9b6" name="Default Changelist" comment="SpringCloud Alibaba 1-4章零基础入门篇">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/microautumn/springcloud/entities/CommonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/microautumn/springcloud/entities/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/OrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/microautumn/springcloud/EurekaMain7001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/com/microautumn/springcloud/EurekaMain7002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/microautumn/springcloud/PaymentMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/microautumn/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/microautumn/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/microautumn/springcloud/service/Impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/microautumn/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/microautumn/springcloud/PaymentMain8002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/microautumn/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/microautumn/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/microautumn/springcloud/service/Impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/microautumn/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b302aeff-f998-4e82-a776-3e1cd411f9b6" name="Default Changelist" comment="SpringCloud Alibaba 1-4章零基础入门篇" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
