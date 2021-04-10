@@ -8,6 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="add77b27-af35-412c-9440-b881ca1ffac0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/microautumn/myrule/MySelfRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/microautumn/springcloud/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/microautumn/springcloud/entities/CommonResult.java" afterDir="false" />
@@ -15,7 +16,42 @@
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/microautumn/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/microautumn/springcloud/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/OrderMain80.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/microautumn/springcloud/controller/OrderController.class" afterDir="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="b302aeff-f998-4e82-a776-3e1cd411f9b6" name="Default Changelist" comment="SpringCloud Alibaba 1-4章零基础入门篇" />
+=======
+    <list default="true" id="388dfe1f-1d51-4ecf-b4c5-f4e9133fb7b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/microautumn/springcloud/OrderZKMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/microautumn/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/microautumn/springcloud/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/microautumn/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
+=======
+    <list default="true" id="a8a61d06-0cee-4e12-9704-392b789ea8f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/microautumn/springcloud/OrderConsulMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/microautumn/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/microautumn/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/microautumn/springcloud/PaymentMain8006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/microautumn/springcloud/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/microautumn/springcloud/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/microautumn/springcloud/EurekaMain7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/com/microautumn/springcloud/EurekaMain7002.class" beforeDir="false" />
+>>>>>>> consul
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> master
     </list>
+>>>>>>> zookeeper
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +132,15 @@
       </set>
     </option>
   </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="RunManager" selected="Spring Boot.OrderMain80">
+=======
+  <component name="RunManager" selected="Spring Boot.OrderZKMain80">
+>>>>>>> zookeeper
+=======
   <component name="RunManager" selected="Spring Boot.OrderConsulMain80">
+>>>>>>> consul
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
