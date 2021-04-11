@@ -23,21 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add77b27-af35-412c-9440-b881ca1ffac0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/microautumn/springcloud/OrderFeignHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/microautumn/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/microautumn/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/microautumn/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/microautumn/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/microautumn/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/microautumn/springcloud/service/Impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/microautumn/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/microautumn/springcloud/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/microautumn/springcloud/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/microautumn/springcloud/gatewayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/microautumn/springcloud/controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +92,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashboardMain9001">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -229,10 +221,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-gateway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microautumn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microautumn.springcloud.gatewayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+        <item itemvalue="Spring Boot.gatewayMain9527" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
         <item itemvalue="Spring Boot.OrderFeignHystrixMain80" />
         <item itemvalue="Spring Boot.OrderFeignMain80" />
       </list>
@@ -248,7 +254,7 @@
       <updated>1618067638447</updated>
       <workItem from="1618067640526" duration="457000" />
       <workItem from="1618068113883" duration="3252000" />
-      <workItem from="1618124794824" duration="6815000" />
+      <workItem from="1618124794824" duration="11773000" />
     </task>
     <servers />
   </component>
@@ -268,14 +274,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1480" y="94" key="#Project_Structure" timestamp="1618148336109">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1480" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618148336109" />
     <state x="-1238" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618130744069">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1238" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618130744069" />
-    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618127360718">
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618152068231">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618127360718" />
+    <state x="-1155" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152068231" />
     <state x="-1736" y="86" key="DiffContextDialog" timestamp="1618114994060">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -284,38 +294,38 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618067688941" />
-    <state width="1473" height="347" key="GridCell.Tab.0.bottom" timestamp="1618131292784">
+    <state width="1435" height="509" key="GridCell.Tab.0.bottom" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292784" />
-    <state width="1473" height="347" key="GridCell.Tab.0.center" timestamp="1618131292783">
+    <state width="1435" height="509" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.0.center" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292783" />
-    <state width="1473" height="347" key="GridCell.Tab.0.left" timestamp="1618131292783">
+    <state width="1435" height="509" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.0.left" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292783" />
-    <state width="1473" height="347" key="GridCell.Tab.0.right" timestamp="1618131292783">
+    <state width="1435" height="509" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.0.right" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292783" />
-    <state width="1473" height="347" key="GridCell.Tab.1.bottom" timestamp="1618131292784">
+    <state width="1435" height="509" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.1.bottom" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292784" />
-    <state width="1473" height="347" key="GridCell.Tab.1.center" timestamp="1618131292784">
+    <state width="1435" height="509" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.1.center" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292784" />
-    <state width="1473" height="347" key="GridCell.Tab.1.left" timestamp="1618131292784">
+    <state width="1435" height="509" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.1.left" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292784" />
-    <state width="1473" height="347" key="GridCell.Tab.1.right" timestamp="1618131292784">
+    <state width="1435" height="509" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
+    <state width="1435" height="509" key="GridCell.Tab.1.right" timestamp="1618152152703">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1473" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618131292784" />
+    <state width="1435" height="509" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618152152703" />
     <state x="-1380" y="263" key="IDE.errors.dialog" timestamp="1618115025140">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -328,9 +338,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618115012958" />
-    <state x="-1586" y="180" key="new project wizard" timestamp="1618130621098">
+    <state x="-1586" y="180" key="new project wizard" timestamp="1618148169945">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1586" y="180" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618130621098" />
+    <state x="-1586" y="180" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618148169945" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618148664624">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1618148664624" />
   </component>
 </project>
