@@ -25,7 +25,7 @@ public class PaymentController {
     public String paymentInfo_ok(@PathVariable("id") Integer id){
 
         String result = paymentService.paymentInfo_ok(id);
-        log.info("******* result"+result);
+        log.info("******* cloud-provider-hystrix-payment8001 result"+result);
         return result;
     }
 
@@ -33,7 +33,7 @@ public class PaymentController {
     public String paymentInfo_timeout(@PathVariable("id") Integer id){
 
         String result = paymentService.paymentInfo_timeout(id);
-        log.info("******* result"+result);
+        log.info("******* cloud-provider-hystrix-payment8001 result"+result);
         return result;
     }
 
@@ -41,7 +41,7 @@ public class PaymentController {
     @GetMapping(value = "/payment/Circuit/{id}")
     public String paymentCircuitBreaker(@PathVariable("id") Integer id){
         String result = paymentService.paymentCircuitBreaker(id);
-        log.info("******* result"+result);
+        log.info("******* cloud-provider-hystrix-payment8001 result"+result);
         return result;
     }
 
